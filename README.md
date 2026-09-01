@@ -121,22 +121,22 @@ Service submission is also simulated asynchronously for demo purposes; no real b
 ## 📸 App Screenshots
 
 ### Home — Mechanic Directory
-![PitLane Home](screenshots/01-home.png)
+<img src="screenshots/01-home.png" width="300"/>
 
 ### Search & Filtering
-![PitLane Search](screenshots/02-search.png)
+<img src="screenshots/02-search.png" width="300"/>
 
 ### Mechanic Details
-![Mechanic Details](screenshots/03-mechanic-details.png)
+<img src="screenshots/03-mechanic-details.png" width="300"/>
 
 ### Request Service
-![Request Service](screenshots/04-request-service.png)
+<img src="screenshots/04-request-service.png" width="300"/>
 
 ### Confirmation
-![Confirmation](screenshots/05-confirmation.png)
+<img src="screenshots/05-confirmation.png" width="300"/>
 
 ### Dark Mode
-![PitLane Dark Mode](screenshots/06-dark-mode.png)
+<img src="screenshots/06-dark-mode.png" width="300"/>
 
 > The screenshots demonstrate the main user journey, responsive states, form validation flow, and the Workshop Ledger visual system.
 
