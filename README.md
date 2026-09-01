@@ -103,6 +103,12 @@ protocol MechanicRepository: Sendable {
 
 The bundled `MockMechanicRepository` decodes `mechanics.json` with `Task.sleep(nanoseconds: 800_000_000)` to simulate real-world network latency.
 
+### API / Data Source
+
+For this assignment, the app uses a **bundled mock JSON endpoint** (`mechanics.json`) through `MockMechanicRepository`. The repository is abstracted behind `MechanicRepository`, so it can be replaced with a real `URLSession` REST implementation without changing the UI or ViewModels.
+
+Service submission is also simulated asynchronously for demo purposes; no real booking backend is used.
+
 ### Typed Error Model (`APIError`)
 - `.networkFailure` → User message: *"Unable to connect. Please check your internet connection..."*
 - `.decodingError` → User message: *"We received unexpected data. Please try again later."*
@@ -111,12 +117,36 @@ The bundled `MockMechanicRepository` decodes `mechanics.json` with `Task.sleep(n
 
 ---
 
+
+## 📸 App Screenshots
+
+### Home — Mechanic Directory
+![PitLane Home](screenshots/01-home.png)
+
+### Search & Filtering
+![PitLane Search](screenshots/02-search.png)
+
+### Mechanic Details
+![Mechanic Details](screenshots/03-mechanic-details.png)
+
+### Request Service
+![Request Service](screenshots/04-request-service.png)
+
+### Confirmation
+![Confirmation](screenshots/05-confirmation.png)
+
+### Dark Mode
+![PitLane Dark Mode](screenshots/06-dark-mode.png)
+
+> The screenshots demonstrate the main user journey, responsive states, form validation flow, and the Workshop Ledger visual system.
+
 ## 🤖 AI Usage Disclosure
 
 This application was developed using **Google Antigravity** as a pair programmer:
 - **Architectural Scaffolding**: Antigravity generated the initial blueprint, directory hierarchy, Xcode `.pbxproj` structure, and mock JSON schema.
 - **Component Development**: Component interfaces and SwiftUI layouts were co-authored with Antigravity following strict "Workshop Ledger" visual specs.
 - **Verification**: Code compilation and build validation were executed using `xcodebuild` targeting `iphonesimulator` within the sandbox.
+- **Manual Verification**: The app was run in the iOS Simulator and the main flows, loading/error states, retry behavior, validation, dark mode, text-size accessibility behavior, search, refresh, and confirmation flow were manually verified.
 
 ---
 
