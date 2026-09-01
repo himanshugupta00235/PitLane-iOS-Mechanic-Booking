@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Instant Auto Care",
+    "rating": 4.7,
+    "distance": 2.4,
+    "location": "Sector 44, Gurgaon",
+    "address": "Shop 12, Main Market, Sector 44, Gurugram, Haryana 122003",
+    "isOpen": true,
+    "workingHours": "Mon–Sat: 9:00 AM – 7:00 PM",
+    "phone": "+919876543210",
+    "services": ["Car Service", "Battery Replacement", "Tyre Change", "Wheel Alignment", "AC Repair"]
+  },
+  {
+    "id": 2,
+    "name": "SpeedFix Garage",
+    "rating": 4.3,
+    "distance": 1.2,
+    "location": "DLF Phase 3, Gurgaon",
+    "address": "Plot 7, Near Cyber Hub, DLF Phase 3, Gurugram, Haryana 122002",
+    "isOpen": true,
+    "workingHours": "Mon–Sat: 8:00 AM – 8:00 PM",
+    "phone": "+919812345678",
+    "services": ["Car Service", "Oil Change", "Brake Repair", "Suspension"]
+  },
+  {
+    "id": 3,
+    "name": "Sharma Motors",
+    "rating": 4.9,
+    "distance": 4.1,
+    "location": "Sohna Road, Gurgaon",
+    "address": "Khasra 422, Near Subhash Chowk, Sohna Road, Gurugram, Haryana 122018",
+    "isOpen": true,
+    "workingHours": "Mon–Sat: 9:30 AM – 6:30 PM",
+    "phone": "+919898765432",
+    "services": ["Engine Repair", "Car Service", "Denting & Painting", "Battery Replacement", "AC Repair", "Clutch Repair"]
+  },
+  {
+    "id": 4,
+    "name": "GearUp Auto Works",
+    "rating": 3.8,
+    "distance": 0.8,
+    "location": "Sector 14, Gurgaon",
+    "address": "SCO 23, HUDA Market, Sector 14, Gurugram, Haryana 122001",
+    "isOpen": false,
+    "workingHours": "Mon–Fri: 10:00 AM – 6:00 PM",
+    "phone": "+919845612378",
+    "services": ["Tyre Change", "Wheel Balancing", "Oil Change"]
+  },
+  {
+    "id": 5,
+    "name": "Apex Car Clinic",
+    "rating": 4.5,
+    "distance": 3.6,
+    "location": "Sector 56, Gurgaon",
+    "address": "B-12, Golf Course Extension Road, Sector 56, Gurugram, Haryana 122011",
+    "isOpen": true,
+    "workingHours": "Mon–Sat: 8:30 AM – 7:30 PM",
+    "phone": "+919823456789",
+    "services": ["Car Service", "AC Repair", "Electrical Work", "Battery Replacement", "Brake Repair"]
+  },
+  {
+    "id": 6,
+    "name": "Raj Auto Garage",
+    "rating": 4.1,
+    "distance": 5.7,
+    "location": "Palam Vihar, Gurgaon",
+    "address": "Near C-Block Market, Palam Vihar, Gurugram, Haryana 122017",
+    "isOpen": true,
+    "workingHours": "Mon–Sat: 9:00 AM – 8:00 PM",
+    "phone": "+919867543219",
+    "services": ["Car Service", "Denting & Painting", "Tyre Change", "Oil Change"]
+  },
+  {
+    "id": 7,
+    "name": "AutoMaster Hub",
+    "rating": 4.6,
+    "distance": 8.2,
+    "location": "Manesar, Gurgaon",
+    "address": "Plot 45, IMT Manesar, Gurugram, Haryana 122051",
+    "isOpen": false,
+    "workingHours": "Mon–Fri: 9:00 AM – 5:00 PM",
+    "phone": "+919834567890",
+    "services": ["Engine Repair", "Transmission", "Car Service", "Suspension", "Clutch Repair", "Electrical Work"]
+  }
+]
